@@ -1,0 +1,186 @@
+/* Responsividade */
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .menu ul {
+        gap: 15px;
+    }
+
+    .programs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .video-projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .program-card h3, .project-card h3, .video-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .program-card p, .project-card p {
+        font-size: 0.9rem;
+    }
+
+    .program-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .program-image {
+        width: 7rem;
+        height: 3.5rem;
+    }
+
+    .project-illustration {
+        max-height: 300px;
+    }
+
+    .video-embed {
+        height: 180px;
+    }
+
+    #contact {
+        padding: 20px;
+        max-width: 100%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 10px 0;
+    }
+
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .menu ul {
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .programs-header h2, .projects h2, .video-projects h2 {
+        font-size: 1.5rem;
+    }
+
+    .programs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .video-projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .project-illustration {
+        max-height: 250px;
+    }
+
+    .video-embed {
+        height: 150px;
+    }
+
+    #contact {
+        padding: 15px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 10px 0;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .menu a {
+        font-size: 0.9rem;
+    }
+
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro p {
+        font-size: 0.9rem;
+    }
+
+    .programs-header h2, .projects h2, .video-projects h2 {
+        font-size: 1.3rem;
+    }
+
+    .programs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .video-projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .program-card h3, .project-card h3, .video-card h3 {
+        font-size: 1rem;
+    }
+
+    .program-card p, .project-card p {
+        font-size: 0.85rem;
+    }
+
+    .program-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .program-image {
+        width: 6rem;
+        height: 3rem;
+    }
+
+    .project-illustration {
+        max-height: 200px;
+    }
+
+    .video-embed {
+        height: 120px;
+    }
+
+    #contact {
+        padding: 10px;
+        max-width: 100%;
+    }
+}
